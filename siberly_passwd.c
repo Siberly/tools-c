@@ -57,7 +57,11 @@ void generate_dictionary(int n, const char *word, const char *filename) {
     }
 
     fclose(fp);
-    printf("\nDictionary generated in '%s'.\n", filename);
+    printf("\nwords contained:%d/t%s",n,word);
+    printf("\nThe total number of combinations is:%d",total_combinations);
+    printf("\nDictionary generated in '%s'.", filename);
+    printf("\nThe Permissions:chmod 774 %s",filename);
+    printf("\nUsage: .siberly_passwd -n <number> -w <word> -f </path/to/dir.txt>");
 }
 
 int main(int argc, char *argv[]) {
