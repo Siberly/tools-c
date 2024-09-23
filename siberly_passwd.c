@@ -1,4 +1,13 @@
-/*Usage: ./bootword.exe -n <number> -w <word> -f </path/to/dir.txt> */
+/*Usage: ./siberly_passwd -n <number> -w <words> -f </path/to/dir.txt> */
+/*
+*This code is used to automatically generate the blasting required ...
+*More information or help:https://github.com/Siberly
+*If you want to join us,Please contact:
+*2637192651@qq.com
+*siberrrrr@outlook.com/siberlysily@outlook.com
+*siberlysily@gmail.com
+*The program must be compiled before it can be executed, and the C environment must be available
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
